@@ -6,7 +6,6 @@ namespace CodingTestPractice
 {
     class _1018
     {
-        /*
         static void Main()
         {
             string[] NM = Console.ReadLine().Split(" ");
@@ -73,6 +72,5 @@ namespace CodingTestPractice
             Console.WriteLine(min);
 
         }
-        */
     }
 }
