@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+int count[10001]; //숫자의 범위만큼 배열을 선언
+
+int main()
+{
+    int n, i, input; 
+
+    scanf("%d", &n); //입력될 수의 갯수
+
+    for (i = 0; i<n; i++) //n번만큼 반복 
+    {
+        scanf("%d",&input); //입력된 수 읽어들임
+        count[input]++; //해당 수를 인덱스로 이용해 ++ 시켜줌으로써 자동정렬
+    }
+
+    for (i = 1;i < 10001;i++)  //숫자 범위만큼만 반복
+    {
+        if(count[i])  //0이 아니라면 즉 입력받았던 수라면
+        {
+            for (int t = 0;t < count[i];t++) //카운팅되어있는 만큼 출력 
+            {
+                printf("%d\n",i);
+            }
+        }
+    }
+}
