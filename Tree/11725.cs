@@ -6,6 +6,8 @@ namespace CodingTestPractice
 {
     class tree
     {
+        //노드번호 자체가 Data로 취급되는 문제이기 때문에 list로 인접 정보만 저장해주면 되는 것 같다.
+        //만약 Data를 따로 각 노드가 저장해야 한다면, 각 노드를 class로 구현해야 하지 않을까.
         int n; // 노드의 개수
         List<int>[] list; //노드간 연결 정보 저장
         int[] parents; //부모노드 저장
