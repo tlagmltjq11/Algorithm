@@ -1,0 +1,9 @@
+SELECT HOUR(DATETIME) AS HOUR, COUNT(*) AS COUNT 
+FROM ANIMAL_OUTS 
+GROUP BY HOUR(DATETIME) 
+HAVING HOUR >= 9 AND HOUR <= 19
+ORDER BY HOUR(DATETIME)
+
+입양이 자주 일어나는 시각을 파악하기 위해서 시간대 별로 입양건을 구하는 문제이다.
+hour만 뽑아내는 함수가 ★HOUR★이라는 점을 주의해야 한다.
+시각을 기준으로 그룹핑을 하고 having절을 이용해서 9~19 사이의 값들로만 추려내주면 된다.

@@ -1,0 +1,6 @@
+SELECT ANIMAL_TYPE, IFNULL(NAME, "No name"), SEX_UPON_INTAKE
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID
+
+만약 이름이 NULL이라면 "No name"으로 대체해주는것이 포인트인 문제이다.
+★IFNULL(A, B)★ 함수를 사용하면 해결할 수 있다.

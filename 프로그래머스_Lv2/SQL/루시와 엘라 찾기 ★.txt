@@ -1,4 +1,5 @@
-SELECT  ANIMAL_ID, NAME, SEX_UPON_INTAKE FROM ANIMAL_INS 
+SELECT  ANIMAL_ID, NAME, SEX_UPON_INTAKE 
+FROM ANIMAL_INS 
 WHERE NAME in ("Lucy","Ella","Pickle","Rogan","Sabrina","Mitty")
 
 in 연산자를 통해서 여러 이름들을 지정해서 쉽게 풀 수 있다.

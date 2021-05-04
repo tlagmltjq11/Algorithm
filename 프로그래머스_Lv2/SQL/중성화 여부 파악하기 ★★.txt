@@ -1,0 +1,16 @@
+SELECT ANIMAL_ID, NAME, 
+CASE
+ WHEN SEX_UPON_INTAKE LIKE '%Neutered%' OR SEX_UPON_INTAKE LIKE '%Spayed%'
+ THEN 'O'
+ ELSE 'X' END as '중성화'
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID
+
+중성화 여부를 파악하는 문제이다.
+CASE WHEN 조건식1 THEN 처리1
+WHEN 조건식2 THEN 처리2
+ELSE 처리3 
+END
+와 같이 CASE WHEN THEN 구문으로 처리할 수 있다.
+
+또한 LIKE 절을 이용해 문자열을 비교하기 위해 "%문자열%"과 같이 써줘야한다.

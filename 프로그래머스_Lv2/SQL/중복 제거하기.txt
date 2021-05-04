@@ -1,0 +1,6 @@
+SELECT COUNT(DISTINCT(NAME)) AS COUNT
+FROM ANIMAL_INS
+WHERE NAME IS NOT NULL
+
+서로다른 NAME의 총 갯수를 구하는 문제이다. 중복을 제거하기 위해 DISTINCT를 사용하고 COUNT로 세어주면 된다.
+WHERE절은 사실 없어도 통과하지만 확실하게 하고자 IS NOT NULL을 추가했다.
