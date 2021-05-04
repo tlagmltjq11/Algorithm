@@ -1,0 +1,9 @@
+SELECT ANIMAL_TYPE, COUNT(*) AS COUNT
+FROM ANIMAL_INS
+GROUP BY ANIMAL_TYPE
+ORDER BY ANIMAL_TYPE
+
+튜플들이 고양이와 개 두가지로만 이루어져 있기 때문에
+개와 고양이 즉 동물의 타입으로 그룹핑을 해주고 해당 그룹핑 내 튜플의 수를 세어 주면
+고양아와 개의 튜플 수를 구분하여 셀 수 있다. 그 후 고양이가 먼저 출력될 수 있도록
+오더바이를 통해 정렬해 주면 된다.
