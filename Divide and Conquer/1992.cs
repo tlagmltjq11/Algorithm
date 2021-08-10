@@ -4,7 +4,6 @@ using System.Text;
 
 namespace CodingTestPractice
 {
-    /*
     class _1992
     {
         static int[,] arr;
@@ -60,5 +59,4 @@ namespace CodingTestPractice
             Console.WriteLine(sb.ToString());
         }
     }
-    */
 }
