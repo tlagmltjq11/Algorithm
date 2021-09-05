@@ -292,3 +292,9 @@ C#에서는 ★Convert.ToString(s.Length, 2);★ 를 사용해서 2진수로 변
 문제 자체의 난이도는 높지 않지만, 상황별로 확인해야 할 인덱스들이 너무 많기 때문에
 코드가 전반적으로 난잡해지게 되어 힘들었다.
 https://geunzrial.tistory.com/120 참고
+
+▶ 5주차.cs (완전탐색 or 수학) ★★★
+완전탐색으로 풀어도 시간초과가 나지 않는 문제라서 완전탐색으로 풀려했으나
+무언가 패턴이 존재하는 것 같아서 경우의 수를 구해 푸는 식으로 풀었다.
+-> 확실한 패턴을 찾기에는 블로그의 도움을 받음.
+https://blog.naver.com/PostView.naver?blogId=jinhan814&logNo=222488988156&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView 
