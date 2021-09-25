@@ -4,7 +4,6 @@ using System.Text;
 
 namespace CodingTestPractice
 {
-    /*
     class _2630
     {
         static int w, b;
@@ -62,5 +61,4 @@ namespace CodingTestPractice
             Console.WriteLine(b);
         }
     }
-    */
 }

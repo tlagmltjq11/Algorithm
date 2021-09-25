@@ -4,7 +4,6 @@ using System.Text;
 
 namespace CodingTestPractice
 {
-    /*
     class _1629
     {
         static long Divide(long a, long b, long c)
@@ -41,5 +40,4 @@ namespace CodingTestPractice
             Console.WriteLine(result);
         }
     }
-    */
 }
